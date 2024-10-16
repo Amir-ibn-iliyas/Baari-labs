@@ -1,0 +1,46 @@
+{
+  "employee": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "attendance": {
+    "status": "in",
+    "clockInTime": "2024-10-16T08:53:36.089Z",
+    "clockOutTime": null,
+    "totalHours": 2
+  },
+  "dailyUpdates": [
+    {
+      "id": 1,
+      "date": "2023-06-30",
+      "update": "Completed the frontend for Project A"
+    },
+    {
+      "id": "9ad4",
+      "date": "2024-10-16",
+      "update": "hi"
+    },
+    {
+      "id": "f473",
+      "date": "2024-10-16",
+      "update": "write code for navbar"
+    }
+  ],
+  "timesheet": [
+    {
+      "id": 1,
+      "date": "2023-06-30",
+      "projects": [
+        {
+          "name": "Project A",
+          "hours": 4
+        },
+        {
+          "name": "Project B",
+          "hours": 4
+        }
+      ]
+    }
+  ]
+}
